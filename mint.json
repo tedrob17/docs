@@ -48,7 +48,8 @@
     {
       "group": "SIMS V2",
       "pages": [
-        "V2Pages/purchasev2"
+        "V2Pages/purchasev2",
+        "V2Pages/installv2.mdx"
       ]
     },
     {
