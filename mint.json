@@ -46,11 +46,9 @@
   ],
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "SIMS V2",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
+        "V2Pages/purchasev2"
       ]
     },
     {
