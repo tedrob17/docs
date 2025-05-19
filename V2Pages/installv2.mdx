@@ -6,17 +6,21 @@ description: "This page will walk you through how to install SIMS V2 on the Robl
 When you have purchased your license, you should have recieved a DM from the **SIMS Cloud** bot looking a little bit like this:
 
 <img
-  src="/images/image.png"
+  src="/Screenshot2025-05-18194305.png"
   alt="image.png"
   title="image.png"
   style={{ width:"54%" }}
 />
 
+<Note>
+  Make sure you invite the bot to the same server with the ID you provided in the SIMS Purchase Ticket if not your SIMS Licence won't apply.
+</Note>
+
 <Info>
   The API key in this guide is disabled. It will not work, don't try it.
 </Info>
 
-You'll need to open the **SIMS Download Link **and then insert it into your Roblox Studio workspace.
+You'll need to open the **SIMS Download Link** and then insert it into your Roblox Studio workspace.
 
 Once you have inserted your SIMS.rbxm file, it should look like this in your workspace:
 
@@ -29,11 +33,25 @@ Once you have inserted your SIMS.rbxm file, it should look like this in your wor
 
 You'll need to setup your files. To do so, drag the folder to where it states. For example drag the ServerScriptService folder over to ServerScriptService. Its common sense. Press CTRL \+ U, Command \+ U, or right click and ungroup once you have dragged it into the right place. Repeat for the other folders. You can put the SIMS Tablet wherever you like.
 
+Your explorer should look like this once you have setup your files correctly:
+
 <img
   src="/Screenshot2025-05-18214026.png"
   alt="image.png"
   title="image.png"
-  style={{ width:"20%" }}
+  style={{ width:"28%" }}
 />
 
-Your explorer should look like this once you have setup your files correctly.
+<Warning>
+  You will need to enable Loadstring in ServerScriptService. If you don't enable it, SIMS will not load properly.
+</Warning>
+
+<Warning>
+  Please make sure you don't have any of the following in your experience:
+
+  - You don't have any**join / leave**  discord webhook loggers
+  - You don't have any **admin **discord webhook loggers
+  - You don't have any **chat **discord webhook loggers
+
+  If you have any of the provided listed SIMS won't work as functioned and will be rate limited by Roblox servers.
+</Warning>
